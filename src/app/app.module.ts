@@ -9,6 +9,7 @@ import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/
 import { RecipeListComponent } from './components/recipes/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './components/recipes/recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from './components/recipes/recipe-list/recipe-item/recipe-item.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -24,7 +25,8 @@ import { RecipeItemComponent } from './components/recipes/recipe-list/recipe-ite
     RecipeItemComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
